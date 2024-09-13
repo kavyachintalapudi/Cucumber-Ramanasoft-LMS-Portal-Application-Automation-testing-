@@ -56,7 +56,7 @@ public class ApplicationHook {
 	public void quitBrowser()
 	{
 
-	//	driver.quit();
+		driver.quit();
 
 	}
 	
