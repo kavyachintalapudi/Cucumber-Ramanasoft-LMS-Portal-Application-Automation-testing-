@@ -23,7 +23,7 @@ public class HomepageTest {
 	
 	
 	
-	@Given("user is on page")
+	/*@Given("user is on page")
 	public void user_is_on_page() {
 	
 	
@@ -53,6 +53,87 @@ public class HomepageTest {
 	public void user_is_redirected_to_about_Ramanasoft_Page()
 	{
 		
+	}
+	*/
+	//kavya//
+	/*login button*/
+	
+	@Given("user should click on login button")
+	public void user_should_click_on_login_button() {
+	    
+	}
+
+	@When("click on login button")
+	public void click_on_login_button() {
+	    hp.clickLogin();
+	}
+
+	@Then("user is able to navigate to the drop down list options")
+	public void user_is_able_to_navigate_to_the_drop_down_list_options() {
+	    
+	}
+	
+    /*intern button*/
+	@Given("user should click on intern button")
+	public void user_should_click_on_intern_button() {
+	    
+	}
+
+	@When("click on intern button")
+	public void click_on_intern_button() {
+	    hp.clickintern();
+	}
+
+	@Then("user is able to navigate to the intern login page")
+	public void user_is_able_to_navigate_to_the_intern_login_page() {
+	    
+	}
+	
+	/*guest button*/
+	@Given("user click on guest button")
+	public void user_click_on_guest_button() {
+	    
+	}
+	
+	@When("click on gueest button")
+	public void click_on_gueest_button() {
+	    hp.clickguest();
+	}
+
+	@Then("user is able to navigate to the guest login page")
+	public void user_is_able_to_navigate_to_the_guest_login_page() {
+	    
+	}
+/*contact us button*/
+	@Given("should click on contact us button")
+	public void should_click_on_contact_us_button() {
+	    
+	}
+
+	@When("click on contact us button")
+	public void click_on_contact_us_button() {
+	    hp.clickcontact();
+	}
+
+	@Then("user is able to navigate to the contact us page")
+	public void user_is_able_to_navigate_to_the_contact_us_page() {
+	    
+	}
+/*current openings button*/
+	
+	@Given("user should click on current openings button")
+	public void user_should_click_on_current_openings_button() {
+	   
+	}
+
+	@When("click on current openings button")
+	public void click_on_current_openings_button() {
+	    hp.clickcurrent();
+	}
+
+	@Then("user is able to navigate to the current openings page")
+	public void user_is_able_to_navigate_to_the_current_openings_page() {
+	    
 	}
 
 
