@@ -21,42 +21,7 @@ public class HomepageTest {
 	softAssert =new SoftAssert();
 	}
 	
-	
-	
-	/*@Given("user is on page")
-	public void user_is_on_page() {
-	
-	
-	}
-	@When("user clicks on login")
-	public void user_clicks_on_login() {
-		hp.clickOnLoginButton();
-	}
-	@Then("user is able to see {string} {string} {string}")
-	public void user_is_able_to_see(String hrLogin, String sAdminLogin, String internLogin) {
-	
-//softAssert.assertEquals(hp.getHrLoginText(),hrLogin);
-//	softAssert.assertEquals(hp.getsuperAdminLoginText(),sAdminLogin);
-//	softAssert.assertEquals(hp.getInternLoginText(),internLogin);
-	
-//	softAssert.assertAll();
-	
-	}
-	
-	
-	@When("user clicks on about Ramanasoft")
-	public void user_clicks_on_about_Ramanasoft()
-	{
-		hp.clickOnaboutRamanasoftBtn();
-	}
-	@Then("user is redirected to about Ramanasoft Page")
-	public void user_is_redirected_to_about_Ramanasoft_Page()
-	{
-		
-	}
-	*/
-	//kavya//
-	/*login button*/
+/*login button*/
 	
 	@Given("user should click on login button")
 	public void user_should_click_on_login_button() {
@@ -73,7 +38,7 @@ public class HomepageTest {
 	    
 	}
 	
-    /*intern button*/
+ /*intern button*/
 	@Given("user should click on intern button")
 	public void user_should_click_on_intern_button() {
 	    
@@ -89,7 +54,7 @@ public class HomepageTest {
 	    
 	}
 	
-	/*guest button*/
+/*guest button*/
 	@Given("user click on guest button")
 	public void user_click_on_guest_button() {
 	    
@@ -104,6 +69,7 @@ public class HomepageTest {
 	public void user_is_able_to_navigate_to_the_guest_login_page() {
 	    
 	}
+	
 /*contact us button*/
 	@Given("should click on contact us button")
 	public void should_click_on_contact_us_button() {
@@ -119,9 +85,9 @@ public class HomepageTest {
 	public void user_is_able_to_navigate_to_the_contact_us_page() {
 	    
 	}
-/*current openings button*/
 	
-	@Given("user should click on current openings button")
+/*current openings button*/
+    @Given("user should click on current openings button")
 	public void user_should_click_on_current_openings_button() {
 	   
 	}
@@ -135,8 +101,101 @@ public class HomepageTest {
 	public void user_is_able_to_navigate_to_the_current_openings_page() {
 	    
 	}
+	
+/*about ramanasoft button*/
+	@Given("user should click on about ramanasoft button")
+	public void user_should_click_on_about_ramanasoft_button() {
+	    
+	}
 
+	@When("click on about ramanasoft button")
+	public void click_on_about_ramanasoft_button() {
+	    hp.clickabout();
+	}
 
+	@Then("user is able to navigate to the about ramanasoft page")
+	public void user_is_able_to_navigate_to_the_about_ramanasoft_page() {
+	    
+	}
+	
+/*continue to register button*/
+	@Given("user should click on continue to register button")
+	public void user_should_click_on_continue_to_register_button() {
+	    
+	}
 
+	@When("click on continue to register button")
+	public void click_on_continue_to_register_button() {
+	    hp.clickregister();
+	}
+
+	@Then("user is able to navigate to the registration page")
+	public void user_is_able_to_navigate_to_the_registration_page() {
+	    
+	}
+	
+/* privacy policy hyperlink */
+	@Given("user should click on privacy policy hyperlink")
+	public void user_should_click_on_privacy_policy_hyperlink() {
+	    
+	}
+
+	@When("click on privacy policy hyperlink")
+	public void click_on_privacy_policy_hyperlink() {
+	    hp.clickprivacy();
+	}
+
+	@Then("user is able to navigate to the privacy policy page")
+	public void user_is_able_to_navigate_to_the_privacy_policy_page() {
+	   
+	}
+	
+/* security hyperlink */
+	@Given("user should click on security hyperlink")
+	public void user_should_click_on_security_hyperlink() {
+	    
+	}
+
+	@When("click on security hyperlink")
+	public void click_on_security_hyperlink() {
+	    hp.clicksecurity();
+	}
+
+	@Then("user is able to navigate to the security page")
+	public void user_is_able_to_navigate_to_the_security_page() {
+	    
+	}
+	
+/* website accessibility hyperlink */
+	@Given("user should click on website Accessibility hyperlink")
+	public void user_should_click_on_website_accessibility_hyperlink() {
+	    
+	}
+
+	@When("click on website Accessibility hyperlink")
+	public void click_on_website_accessibility_hyperlink() {
+	    hp.clickwebsite();
+	}
+
+	@Then("user is able to navigate to the website Accessibility page")
+	public void user_is_able_to_navigate_to_the_website_accessibility_page() {
+	   
+	}
+	
+/* manage cookies hyperlink */
+	@Given("user should click on manage cookies hyperlink")
+	public void user_should_click_on_manage_cookies_hyperlink() {
+	    
+	}
+
+	@When("click on manage cookies hyperlink")
+	public void click_on_manage_cookies_hyperlink() {
+	    hp.clickcookies();
+	}
+
+	@Then("user able to navigate to the cookies page")
+	public void user_able_to_navigate_to_the_cookies_page() {
+	
+	}
 
 }

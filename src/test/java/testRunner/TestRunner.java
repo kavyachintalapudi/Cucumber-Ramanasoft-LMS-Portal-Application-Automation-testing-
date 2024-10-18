@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= {"./src/test/resources/Features/AboutRamansoft.feature"},
+		features= {"./src/test/resources/Features/MultipleLogins.feature"},
 		glue= {"applicationHooks","stepDefinationHrStudentsProfile","stepDefinationHrProfile"},
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 
