@@ -1,4 +1,3 @@
- @homepage
 Feature: Index page
 Scenario: as a user to check functionality of the Index page
 Given user should click on login button
